@@ -12,6 +12,7 @@ body {
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
 }
 
 h1 {
@@ -51,5 +52,6 @@ button {
     max-width: 80%;
     padding: 20px;
     margin: 40px auto;
+    font-size: 20px;
   }
 }
