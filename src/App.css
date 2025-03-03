@@ -1,0 +1,55 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 80%px;
+  margin: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Gradient Buttons */
+.add-btn {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.add-btn:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (min-width: 752px) {
+  .app {
+    max-width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+  }
+}

@@ -1,0 +1,36 @@
+.city-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.city-card {
+  background: #e9ecef;
+  border-radius: 4px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.city-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Gradient Buttons */
+.city-card .delete-btn {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.city-card .delete-btn:hover {
+  background: linear-gradient(135deg, #dd2476, #ff512f);
+}

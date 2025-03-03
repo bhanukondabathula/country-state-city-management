@@ -1,0 +1,47 @@
+.country-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.country-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.country-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.country-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.country-buttons button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.edit-btn {
+  background: linear-gradient(135deg, #57e355, #76f02f);
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background: linear-gradient(135deg, #39850c, #76b852);
+}
+
+.delete-btn {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: linear-gradient(135deg, #dd2476, #ff512f);
+}
